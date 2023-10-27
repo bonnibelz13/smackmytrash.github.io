@@ -449,15 +449,15 @@
           <!-- setupcode -->
           <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/setupcode.png" alt="Image" class="img-fluid rounded">
           <h2><a href=#>Library & void setup</a></h2>
-          <p class="text-muted mb-3 mt-3 text-uppercase small"><span class="mr-2">arduino</span>
-          <p id="fontthai" style="color: #04254E;">&nbsp; &nbsp; &nbsp; &nbsp; มีระยะเวลาดีเลย์ 0.5 วินาที มีการสร้างเงื่อนไขว่า 
-          <p id="fontthai" style="color: #04254E;">&nbsp; &nbsp; &nbsp; &nbsp; การต่อจอ LCD จะต้องมีการโหลด libary ของ "wire.h"
-          <br>&nbsp; &nbsp; และ "LiquidCrystal_I2C.h" โดยต้องมีการบอก
-          <br>&nbsp; &nbsp; address ซึ่งทั่วไปจะมี 2 ตัว คือ 0x27 และ 0x3F
-          <br>&nbsp; &nbsp;  ซึ่งขึ้นอยู่กับแต่ละคอมพิวเตอร์</p>
-          <p id="fontthai" style="color: #D66C44;">&nbsp; &nbsp; &nbsp; &nbsp; การต่อ sensor จะต้องมีการโหลด libary ของ "Ultrasonic.h"</p>
-          <p id="fontthai" style="color: #04254E;">&nbsp; &nbsp; เมื่อทำการต่อสายไฟกับ HC-SR04 ULTRASONIC SENSOR 
-          <br>&nbsp; &nbsp; จะมีการต่อแบบ input และแบบ output</p>
+          <p class="text-muted mb-3 mt-3 text-uppercase small"><span class="mr-2">เรียกใช้ไลบรารีและกำหนดค่าเริ่มต้น </span>
+          <p id="fontthai" style="color: #D66C44;">&nbsp; &nbsp; &nbsp; &nbsp; เรียกใช้ไลบรารี Wire.h, LiquidCrystal_I2C.h, และ Servo.h ซึ่งจำเป็นสำหรับการใช้งาน I2C LCD และ Servo Motor.</p>
+
+          <p id="fontthai" style="color: #04254E;">&nbsp; &nbsp; &nbsp; &nbsp; ประกาศตัวแปร myservo เพื่อใช้ในการควบคุม Servo Motor และ lcd เพื่อใช้งานหน้าจอ LCD และประกาศตัวแปรสำหรับขาของ Arduino และสถานะ state และสี LED (red, green, blue)</p>
+          
+          <!-- <br>&nbsp; &nbsp; address ซึ่งทั่วไปจะมี 2 ตัว คือ 0x27 และ 0x3F
+          <br>&nbsp; &nbsp;  ซึ่งขึ้นอยู่กับแต่ละคอมพิวเตอร์</p> -->
+          <p id="fontthai" style="color: #04254E;">&nbsp; &nbsp; ในฟังก์ชัน setup() เรียก Serial.begin(9600) เพื่อเปิดการสื่อสารผ่าน Serial ที่อัตราบิต 9600 และเรียก lcd.init() เพื่อเริ่มต้นหน้าจอ LCD และ lcd.backlight() เพื่อเปิดไฟหน้าจอ LCD
+          &nbsp; &nbsp; จะมีการต่อแบบ input และแบบ output</p>
         </div>
       </div>
 
