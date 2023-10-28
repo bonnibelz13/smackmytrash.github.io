@@ -1,5 +1,5 @@
 # SMACK MY TRASH
-Project Physical Computing
+Project 06016409 PHYSICAL COMPUTING (1/2023)
 
 
 "Smack My Trash" เป็นโครงงานที่เน้นการจัดการขยะ
