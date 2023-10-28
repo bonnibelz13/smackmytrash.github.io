@@ -458,7 +458,7 @@
                 <h2 style="font-size: 40px;color: rgb(173, 26, 179);">Full Code</h2>
                 <br>
                 <!-- fullcode -->
-                <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/fullcode.png" alt="Image" class="img-fluid rounded"><br><hr>
+                <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/fullcode.png" alt="Image" class="img-fluid rounded">
               </div>
               
 
@@ -476,31 +476,26 @@
                   <!-- setupcode -->
                   <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/setupcode.png" alt="Image" class="img-fluid rounded">
       
-                  <h2><a href=# style="font-size: 36px;color: rgb(81, 209, 156);"><br>Library & void setup</a></h2>
+                  <h2><a href=# style="font-size: 36px;color: rgb(81, 209, 156);">Library & void setup</a></h2>
                   <p class="text-muted mb-3 mt-3 text-uppercase small"><span class="mr-2">เรียกใช้ไลบรารีและกำหนดค่าเริ่มต้น </span>
 
                     <p id="fontthai" style="color: #D66C44;">เรียกใช้ไลบรารี Wire.h, LiquidCrystal_I2C.h, และ Servo.h
                       <br>ซึ่งจำเป็นสำหรับการใช้งาน I2C LCD และ Servo Motor.</p>
                   <div align="center">
-        
-                  <p id="fontthai" style="color: #04254E;">&nbsp; &nbsp; &nbsp; &nbsp; ประกาศตัวแปร myservo เพื่อใช้ในการควบคุม Servo Motor และ lcd เพื่อใช้งานหน้าจอ LCD และประกาศตัวแปรสำหรับขาของ Arduino และสถานะ state และสี LED (red, green, blue)</p>
-                  
-                  <!-- <br>&nbsp; &nbsp; address ซึ่งทั่วไปจะมี 2 ตัว คือ 0x27 และ 0x3F
-                  <br>&nbsp; &nbsp;  ซึ่งขึ้นอยู่กับแต่ละคอมพิวเตอร์</p> -->
-                  <p id="fontthai" style="color: #04254E;">&nbsp; &nbsp; ในฟังก์ชัน setup() เรียก Serial.begin(9600) เพื่อเปิดการสื่อสารผ่าน Serial ที่อัตราบิต 9600 และเรียก lcd.init() เพื่อเริ่มต้นหน้าจอ LCD และ lcd.backlight() เพื่อเปิดไฟหน้าจอ LCD กำหนดขาของ Arduino ที่ใช้ในการควบคุม Servo และระบบ LED โดยใช้ pinMode() และกำหนดตำแหน่งข้อความเริ่มต้นบนหน้าจอ LCD</p>
+                  <p id="fontthai" style="color: #04254E;">&nbsp; &nbsp; &nbsp; &nbsp; ประกาศตัวแปร myservo เพื่อใช้ในการควบคุม Servo Motor และ lcd เพื่อใช้งานหน้าจอ LCD และประกาศตัวแปรสำหรับขาของ Arduino และสถานะ state และสี LED (red, green, blue)<br>ในฟังก์ชัน setup() เรียก Serial.begin(9600) เพื่อเปิดการสื่อสารผ่าน Serial ที่อัตราบิต 9600 และเรียก lcd.init() เพื่อเริ่มต้นหน้าจอ LCD และ lcd.backlight() เพื่อเปิดไฟหน้าจอ LCD กำหนดขาของ Arduino ที่ใช้ในการควบคุม Servo และระบบ LED โดยใช้ pinMode() และกำหนดตำแหน่งข้อความเริ่มต้นบนหน้าจอ LCD</p>
                   <br>
 
                   <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/opencode.png" alt="Image" class="img-fluid rounded"></a>
 
-                  <h2><a href="#" style="font-size: 36px;color: rgb(81, 209, 156);"><br>void open</a></h2>
+                  <h2><a href="#" style="font-size: 36px;color: rgb(81, 209, 156);">void open</a></h2>
                   <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">ฟังก์ชันสำหรับเปิดถัง</span>
-                  <p id="fontthai" style="color: #04254E;">เรียกใช้ digitalWrite() เพื่อตั้งสี LED เป็นสีเขียว เพื่อบ่งชี้สถานะการเปิดถังและเรียก lcd.clear() เพื่อลบข้อมูลบนหน้าจอ LCD และ lcd.setCursor() และ lcd.print() เพื่อแสดงข้อความ "OPEN" ควบคุม Servo Motor ให้หมุนไปที่องศา 90 โดยใช้ myservo.write(90) และรอ 1 วินาที (delay(1000)) หลังจากนั้นแสดงข้อความ "CLOSING IN.." และนับถอยหลังากนั้นเริ่มทำการแกว่ง LED เพื่อสร้างเอฟเฟกต์</p>
+                  <p id="fontthai" style="color: #04254E;">เรียกใช้ digitalWrite() เพื่อตั้งสี LED เป็นสีน้ำเงิน เพื่อบ่งชี้สถานะการเปิดถังและเรียก lcd.clear() เพื่อลบข้อมูลบนหน้าจอ LCD และ lcd.setCursor() และ lcd.print() เพื่อแสดงข้อความ "OPEN" ควบคุม Servo Motor ให้หมุนไปที่องศา 90 โดยใช้ myservo.write(90) และรอ 1 วินาที (delay(1000)) หลังจากนั้นแสดงข้อความ "CLOSING IN.." นับถอยหลัง</p>
                   <br>
                   
                     <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/closecode.png" alt="Image" class="img-fluid rounded"></a>
-                    <h2 style="font-size: 36px;"><a href="#" style="font-size: 36px;color: rgb(81, 209, 156);"><br>void close</a></h2>
+                    <h2 style="font-size: 36px;"><a href="#" style="font-size: 36px;color: rgb(81, 209, 156);">void close</a></h2>
                     <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">ฟังก์ชันสำหรับปิดถัง</span>
-                    <p id="fontthai" style="color: #04254E;">เรียก lcd.clear() เพื่อลบข้อมูลบนหน้าจอ LCD และ lcd.setCursor() และ lcd.print() เพื่อแสดงข้อความ "CLOSE" ทำการแกว่ง LED เพื่อสร้างเอฟเฟกต์ปิดถัง โดยสลับสี LED เขียวเปิด-ปิด ควบคุม Servo Motor ให้หมุนกลับไปที่องศา 0 โดยใช้ myservo.write(0) และรอ 1 วินาที. คืนข้อความหน้าจอ LCD กลับไปสู่เริ่มต้น "SMACK MY TRASH" และ "SMART BIN" คือ 30 cm. จะให้แสดงในจอ LCD แถวแรกว่า STATUS 
+                    <p id="fontthai" style="color: #04254E;">เรียก lcd.clear() เพื่อลบข้อมูลบนหน้าจอ LCD และ lcd.setCursor() และ lcd.print() เพื่อแสดงข้อความ "CLOSE" และแสดงไฟ LED กระพริบสีโดยสลับสีไฟ LED เปิด-ปิด จากนั้นควบคุม Servo Motor ให้หมุนกลับไปที่องศา 0 โดยใช้ myservo.write(0) และรอ 1 วินาที. คืนข้อความหน้าจอ LCD กลับไปสู่เริ่มต้น<br>"SMACK MY TRASH" และ "SMART BIN"</p>
                 </div>
               </div>
             </div>
@@ -522,12 +517,27 @@
                   <!-- check_fullcode -->
                   <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/checkfullcode.png" alt="Image" class="img-fluid rounded"></a>
                   <h2><a href="#" style="font-size: 36px;color: rgb(81, 209, 156);"><br>int check_full</a></h2>
-                  <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">ฟังก์ชันเช็กถังขยะเต็ม</span>
+                  <p class="text-muted mb-3 text-uppercase small"><span class="mr-2" style="font-weight: bold;">ฟังก์ชันเช็กถังขยะเต็ม</span>
                   <p id="fontthai" style="color: #04254E;">ในฟังก์ชัน check_full(), ตรวจสอบว่าถังขยะเต็มหรือไม่โดยใช้เซนเซอร์ Ultrasonic
                   <br>ส่งสัญญาณ Ultrasonic เพื่อวัดระยะทางจากเซนเซอร์ Ultrasonic
                   <br>ถ้าระยะทางที่วัดได้อยู่ในช่วง 100 ถึง 500 หน่วยไมครอนวิวเมตร,
                   <br>ฟังก์ชันจะส่งค่า 1 ซึ่งหมายถึงถังขยะเต็ม ในกรณีอื่นๆ 
                   <br>ฟังก์ชันจะส่งค่า 0 ซึ่งหมายถึงถังขยะไม่เต็ม
+                  </p></p>
+                </div>
+              </div>
+
+
+              <div class="col-md-6 col-lg-6 wow fadeInUp" data-wow-delay="0.6s" data-aos="fade-up" data-aos-delay="100">
+                <div align="center">
+                  <!-- voidfullcode -->
+                  <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/voidfullcode.png" alt="Image" class="img-fluid rounded"></a>
+                  <h2><a href="#" style="font-size: 36px;color: rgb(81, 209, 156);"><br>void full</a></h2>
+                  <p class="text-muted mb-3 text-uppercase small"><span class="mr-2" style="font-weight: bold;">ฟังก์ชันแสดงถังขยะเต็ม</span>
+                  <p id="fontthai" style="color: #04254E;">ฟังก์ชัน full() ทำงานเมื่อถังขยะเต็ม เริ่มต้นด้วยการลบข้อมูลที่แสดงบนหน้าจอ LCD ด้วย lcd.clear();
+                  คำสั่งถัดไปจะแสดงข้อความ "!! FULL !!" ด้วยคำสั่ง lcd.print("!! FULL !!"); ที่ตำแหน่งหน้าจอ LCD ที่บรรทัดที่ 1 (นับจาก 0) และคอลัมน์ที่ 3 บนหน้าจอ ด้วยคำสั่ง lcd.setCursor(3, 0);
+                  คำสั่ง lcd.print("CLEAR YOUR BIN"); จะแสดงข้อความ "CLEAR YOUR BIN" ที่ตำแหน่งหน้าจอ LCD ที่บรรทัดที่ 2 และคอลัมน์ที่ 1 ด้วยคำสั่ง lcd.setCursor(1, 1);
+                  และจะแสดงไฟLEDสีแดงกระพริบ ในลูป for ไปเรื่อยๆ และใช้ state เป็นตัวแปรสำหรับติดตามสถานะของถังขยะ ตั้งค่า state เป็นหมายถึง 1 ถังขยะเต็มอยู่.
                   </p></p>
                 </div>
               </div>
@@ -537,14 +547,14 @@
                   <!-- loopcode -->
                   <img src="https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/loopcode.png" alt="Image" class="img-fluid rounded"></a>
                   <h2><a href="#" style="font-size: 36px;color: rgb(81, 209, 156);"><br>void loop</a></h2>
-                  <p class="text-muted mb-3 text-uppercase small"><span class="mr-2">ลูปการทำงาน</span>
+                  <p class="text-muted mb-3 text-uppercase small"><span class="mr-2"  style="font-weight: bold;">ลูปการทำงาน</span>
                   <p id="fontthai" style="color: #04254E;">ในฟังก์ชัน loop(), โค้ดทำการทำงานตลอดเวลาโดยตรวจสอบสถานะและระยะทางจากเซนเซอร์ Ultrasonic
                   <br>โค้ดเริ่มต้นโดยส่งสัญญาณ Ultrasonic เพื่อวัดระยะทางจากเซนเซอร์ Ultrasonic ด้านนอก
-                  <br>ตรวจสอบว่าถังหรือห้องน้ำเต็มหรือไม่โดยเรียกใช้ check_full()
+                  <br>ตรวจสอบว่าถังขยะเต็มหรือไม่โดยเรียกใช้ check_full()
                   <br>ถ้าถังขยะเต็ม, เรียก full() เพื่อแสดงสถานะว่าถังเต็ม
                   <br>หากระยะทางที่วัดได้อยู่ในช่วง 0 ถึง 10 หน่วยไมครอนวิวเมตร (หรือเข้าขอบเขตใกล้ถังขยะ), 
                   <br>เรียก open() เพื่อเปิดถังขยะ และตรวจสอบว่าถังขยะเต็มหรือไม่โดยเรียก check_full() อีกครั้ง.
-                  <br>ถ้าสถานะคือ 1, กำหนด LCD และ LED เพื่อแสดงสถานะเริ่มต้นและแสดงสถานะสีน้ำเงินและสีเขียวในโหมดที่ไม่มีการเปิดถังขยะ
+                  <br>ถ้าสถานะคือ 1, กำหนด LCD และ LED เพื่อแสดงสถานะเริ่มต้นและแสดงสถานะสีน้ำเงินในโหมดที่ไม่มีการเปิดถังขยะ
                   </p></p>
                 </div>
               </div>
