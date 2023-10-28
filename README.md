@@ -28,4 +28,3 @@ https://www.youtube.com/watch?v=fk5VN1opfFM
 
 # Poster
 https://raw.githubusercontent.com/bonnibelz13/smartbincompro.github.io/site/images/smack-my-trash-poster-final.jpg
-https://imgur.com/T7pEXFI
