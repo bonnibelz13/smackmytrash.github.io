@@ -26,7 +26,7 @@ HTML
 JavaScript
 
 # Website
-https://bonnibelz13.github.io/smartbincompro.github.io/
+[https://bonnibelz13.github.io/smartbincompro.github.io/](https://bonnibelz13.github.io/smackmytrash.github.io/)
 
 # Video
 https://www.youtube.com/watch?v=fk5VN1opfFM
