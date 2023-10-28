@@ -18,11 +18,12 @@ Project Physical Computing
 
 # Program and Language
 
-Arduino
+Arduino IDE
 Vscode	
 C
 CSS
 HTML
+JavaScript
 
 # Website
 https://bonnibelz13.github.io/smartbincompro.github.io/
