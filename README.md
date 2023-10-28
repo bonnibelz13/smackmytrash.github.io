@@ -13,9 +13,10 @@ Project Physical Computing
 
 # Program and Language
 
-Program	Language
-Arduino	C
-Vscode	CSS
+Arduino
+Vscode	
+C
+CSS
 JavaScript
 HTML
 
