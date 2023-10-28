@@ -19,7 +19,7 @@ Project Physical Computing
 # Program and Language
 
 Arduino IDE
-Vscode	
+Vscode Studio
 C
 CSS
 HTML
