@@ -1004,11 +1004,11 @@ h3 {
 	  position: relative;
 	  z-index: 1; }
   
-  @media (max-width: 991.98px) {
+  @media (max-width: 3000px) {
 	.img-md-fluid {
 	  max-width: 100%; } }
   
-  @media (max-width: 991.98px) {
+  @media (max-width: 3000px) {
 	.display-1, .display-3 {
 	  font-size: 3rem; } }
   
