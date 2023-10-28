@@ -22,7 +22,6 @@ Arduino
 Vscode	
 C
 CSS
-JavaScript
 HTML
 
 # Website
